@@ -1,0 +1,27 @@
+
+import java.util.*;
+class leap
+{
+public static void main(String []args)
+{
+	int a;
+	Scanner s=new Scanner (System.in);
+	System.out.println("enter the no.:");
+	a=s.nextInt();
+	if(a%100==0)
+	{
+		if(a%400==0)
+		System.out.println("it is a leap year");
+		else
+		System.out.print("it is not a leap year");
+	}
+	if(a%100!=0)
+	{
+		if(a%4==0)
+		System.out.println("leap year");
+		else
+		System.out.println("not a leap year");
+	}
+	}
+	
+}
